@@ -226,7 +226,7 @@ nav ul li a:hover {
 	height: auto;
 	margin-top: 20px;
 	text-align: center;
-	background-image: url("images/bs.jpg");
+	background-image: url("images/dark-wallpaper-2161-2322-hd-wallpapers.jpg");
 	background-size: cover;
 	background-color: black;
 	opacity: 0.9;
@@ -251,18 +251,20 @@ nav ul li a:hover {
 }
 .inbox {
 	width: 260px;
-	background-color: rgba(255,255,255,0.4);
+	background-color: white;
+	border-radius: 10px;
 	padding: 15px;
 	margin: 20px 21px;
 	float: left;
 }
+.inbox:hover {
+	box-shadow: 0px 4px 10px 0 rgba(0, 255, 198, 0.5), 0 6px 20px 0 rgba(0, 255, 198, 0.19);
+	transition: 0.5s;
+}
 .inbox img {
 	width: 250px;
 	height: auto;
-}
-.inbox img:hover {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	transition: .5s;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
 }
 .inbox p{
 	text-align: justify;
@@ -281,6 +283,7 @@ nav ul li a:hover {
 .inbox a:hover {
 	background-color: #bf1e2e;
 	color: white;
+	transition: .5s;
 }
 /* Learn Section */
 .container3 {
@@ -636,7 +639,7 @@ nav ul li a:hover {
 	width: 1349px;
 	height: 400px;
 	margin: 0px auto;
-	background-color: #242324d1;
+	background-color: #4c4b4c;
 }
 footer {
 	width: 1200px;
