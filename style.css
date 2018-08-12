@@ -3,6 +3,10 @@
 	padding: 0px;
 	font-family: "Candara";
 }
+@font-face{
+	font-family:"Candara";
+	src:url(https://www.1001fonts.com/search.html?search=CANDARA+);
+}
 body {
 	width: 1349px;
 	height: auto;
